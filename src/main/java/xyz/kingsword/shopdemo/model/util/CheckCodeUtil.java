@@ -2,7 +2,7 @@ package xyz.kingsword.shopdemo.model.util;
 
 import cn.hutool.core.util.IdUtil;
 import cn.hutool.extra.mail.MailUtil;
-
+import org.junit.Test;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Timer;
