@@ -1,13 +1,11 @@
 package xyz.kingsword.shopdemo.model.dao;
 
 import cn.hutool.db.Db;
-import cn.hutool.db.DbUtil;
 import cn.hutool.db.Entity;
 import xyz.kingsword.shopdemo.model.bean.User;
 import xyz.kingsword.shopdemo.model.exception.LoginException;
 
 import javax.inject.Named;
-import java.security.PublicKey;
 import java.sql.SQLException;
 import java.util.Optional;
 
@@ -38,5 +36,25 @@ public class UserDao {
         }
         Optional.ofNullable(entity).orElseThrow(LoginException::new);
         return entity.toBean(new User());
+    }
+
+    public void register(User user) {
+        Entity entity = Entity.parse(user).setTableName("user");
+        try {
+            Db.use().insert(entity);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public boolean resetPassword(String username, String password) {
+        Entity entity = Entity.create("user").set("password", password);
+        Entity where = Entity.create("user").set("username", username);
+        try {
+            return Db.use().update(entity, where) == 1;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 }
