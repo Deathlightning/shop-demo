@@ -1,7 +1,6 @@
 package xyz.kingsword.shopdemo.model.util;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,16 +10,16 @@ import java.util.Map;
  **/
 public class CDIContainer {
     private static final Map<String, Class> classMap = new HashMap<>(10);
-    private static final String CLASS_PATH = CDIContainer.class.getResource("/").getPath();
+    private static final String CLASS_PATH = new File(CDIContainer.class.getResource("/").getPath()).getPath() + "\\";
     private static final String FILE_TYPE = "class";
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         System.out.println(CLASS_PATH);
-        System.out.println(CDIContainer.class);
         recursiveDirectory(new File(CLASS_PATH));
+        System.out.println(classMap.size());
     }
 
-    private static void recursiveDirectory(File parentFile) throws IOException {
+    private static void recursiveDirectory(File parentFile) throws Exception {
         if (parentFile == null || !parentFile.isDirectory()) {
             return;
         }
@@ -36,7 +35,9 @@ public class CDIContainer {
                 String fileName = file.getName();
                 if (FILE_TYPE.equals(fileName.split("\\.")[1])) {
                     String filePath = file.getCanonicalPath();
-                    System.out.println(filePath.replace(CLASS_PATH, "").replace("\\/", "\\.") + fileName.split("\\.")[0]);
+                    String className = filePath.replace(CLASS_PATH, "").replace("\\", ".") + fileName.split("\\.")[0];
+                    Class clazz = Class.forName(className);
+                    classMap.put(className, clazz);
                 }
             }
         }

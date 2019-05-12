@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/UserManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/UserManageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/CDIContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/CDIContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/CardCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/CardCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/db.setting" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/db.setting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/purchase.jsp" afterDir="false" />
@@ -110,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/CDIContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="216">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -529,7 +530,7 @@
       <workItem from="1557574069141" duration="101000" />
       <workItem from="1557574236178" duration="2762000" />
       <workItem from="1557647069359" duration="634000" />
-      <workItem from="1557647836772" duration="6247000" />
+      <workItem from="1557647836772" duration="6645000" />
     </task>
     <task id="LOCAL-00001" summary="cookie免登录">
       <created>1556155963220</created>
@@ -574,7 +575,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40465000" />
+    <option name="totallyTimeSpent" value="40863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -590,7 +591,7 @@
       <window_info id="Web" order="7" sideWeight="0.5032538" side_tool="true" weight="0.26012793" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28741866" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28741866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1060,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/CDIContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="216">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
