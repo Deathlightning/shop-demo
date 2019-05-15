@@ -11,7 +11,7 @@ public interface GoodService {
 
     void delete(int id);
 
-    List<Good> findOnType(int type);
+    List<Good> findOnType(String type);
 
     List<Good> findOnName(String name);
 }

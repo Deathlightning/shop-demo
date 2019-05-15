@@ -2,7 +2,7 @@ package xyz.kingsword.shopdemo.model.util;
 
 import cn.hutool.core.util.IdUtil;
 import cn.hutool.extra.mail.MailUtil;
-import org.junit.Test;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Timer;
@@ -27,7 +27,6 @@ public class CheckCodeUtil {
 
     public static class Reminder {
         Timer timer;
-
         Reminder(String code) {
             timer = new Timer();
             timer.schedule(new TimerTask() {

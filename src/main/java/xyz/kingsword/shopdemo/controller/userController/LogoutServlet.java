@@ -1,7 +1,5 @@
 package xyz.kingsword.shopdemo.controller.userController;
 
-import cn.hutool.extra.servlet.ServletUtil;
-import cn.hutool.http.HttpUtil;
 import xyz.kingsword.shopdemo.model.exception.LoginException;
 
 import javax.servlet.ServletException;

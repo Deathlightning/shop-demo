@@ -14,9 +14,7 @@ public class CDIContainer {
     private static final String FILE_TYPE = "class";
 
     public static void main(String[] args) throws Exception {
-        System.out.println(CLASS_PATH);
         recursiveDirectory(new File(CLASS_PATH));
-        System.out.println(classMap.size());
     }
 
     private static void recursiveDirectory(File parentFile) throws Exception {
@@ -35,9 +33,15 @@ public class CDIContainer {
                 String fileName = file.getName();
                 if (FILE_TYPE.equals(fileName.split("\\.")[1])) {
                     String filePath = file.getCanonicalPath();
-                    String className = filePath.replace(CLASS_PATH, "").replace("\\", ".") + fileName.split("\\.")[0];
-                    Class clazz = Class.forName(className);
-                    classMap.put(className, clazz);
+                    String className = filePath.replace(".class", "").replace(CLASS_PATH, "").replace("\\", ".");
+                    try{
+                        Class clazz = Class.forName(className);
+                        classMap.put(className, clazz);
+                    }catch (Exception e){
+                        System.out.println(className);
+                        e.printStackTrace();
+                    }
+
                 }
             }
         }

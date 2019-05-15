@@ -5,7 +5,6 @@ import cn.hutool.db.Entity;
 import xyz.kingsword.shopdemo.model.bean.User;
 import xyz.kingsword.shopdemo.model.exception.LoginException;
 
-import javax.inject.Named;
 import java.sql.SQLException;
 import java.util.Optional;
 
@@ -13,7 +12,6 @@ import java.util.Optional;
  * @author: wzh date: 2019-04-22 09:04
  * @version: 1.0
  **/
-@Named
 public class UserDao {
 
     public User login(User user) {

@@ -5,7 +5,6 @@ import cn.hutool.db.Entity;
 import cn.hutool.db.sql.Condition;
 import xyz.kingsword.shopdemo.model.bean.Good;
 
-import javax.inject.Named;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +15,6 @@ import java.util.stream.Collectors;
  * @author: wzh date: 2019-05-10 22:17
  * @version: 1.0
  **/
-@Named
 public class GoodDao {
     public boolean insert(Good good) {
         Entity entity = Entity.create("goods").parseBean(good);
@@ -59,5 +57,14 @@ public class GoodDao {
         return new ArrayList<>();
     }
 
+    public List<Good> findOnType(String type) {
+        try {
+            List<Entity> entityList = Db.use().findAll(Entity.create("goods").set("type", type));
+            return entityList.parallelStream().map(v -> v.toBeanIgnoreCase(Good.class)).collect(Collectors.toList());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return new ArrayList<>();
+    }
 
 }
