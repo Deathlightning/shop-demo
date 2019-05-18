@@ -1,3 +1,4 @@
+<!--login.jsp-->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@page isELIgnored="false" %>
@@ -10,8 +11,8 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<c:if test="${errorMessage!=null}">a
-    <span style="color: red">${errorMessage}</span>
+<c:if test="${requestScope.errorMessage!=null}">a
+    <span style="color: red">${requestScope.errorMessage}</span>
 </c:if>
 <div class="commonHeader">
     <div style="font-size: 20px;color: black">购物商城</div>

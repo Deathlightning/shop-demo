@@ -3,6 +3,8 @@ package xyz.kingsword.shopdemo.controller.userController;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import xyz.kingsword.shopdemo.model.bean.User;
+import xyz.kingsword.shopdemo.model.service.LoginService;
+import xyz.kingsword.shopdemo.model.service.impl.LoginServiceImpl;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -15,13 +17,16 @@ import java.util.Map;
 @WebServlet(name = "LoginServlet", urlPatterns = "/login")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        LoginService loginService = new LoginServiceImpl();
         Map<String, String> map = ServletUtil.getParamMap(request);
-        boolean autoLogin = map.remove("autoLogin") == null;
+        boolean autoLogin = map.remove("autoLogin") != null;
         User user = BeanUtil.mapToBean(map, User.class, false);
-//        loginService.login(user);
+        user = loginService.login(user);
+        request.getSession().setAttribute("user", user);
         if (autoLogin) {
             ServletUtil.addCookie(response, new Cookie("user", user.getUsername()));
         }
+        response.sendRedirect(request.getContextPath() + "/index.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
