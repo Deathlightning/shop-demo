@@ -1,4 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #ECEEF1;
+}
+.commonHeader{
+    background-color: #32363A;
+    height: 30px;
+    width: 100%;
 }

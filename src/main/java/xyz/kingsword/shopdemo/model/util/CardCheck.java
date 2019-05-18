@@ -5,7 +5,6 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import xyz.kingsword.shopdemo.model.bean.Card;
 
-import javax.inject.Named;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,7 +12,6 @@ import java.util.Map;
  * @author: wzh date: 2019-04-22 08:44
  * @version: 1.0
  **/
-@Named
 public class CardCheck {
     private static final String cardCheckUrl = "https://ccdcapi.alipay.com/validateAndCacheCardInfo.json";
 
