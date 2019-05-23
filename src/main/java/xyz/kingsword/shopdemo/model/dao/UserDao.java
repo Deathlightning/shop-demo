@@ -21,7 +21,7 @@ public class UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return entity == null ? null : entity.toBean(user);
+        return entity == null ? null : entity.toBean(new User(), true);
     }
 
     public User login(String username) {
@@ -31,8 +31,7 @@ public class UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        Optional.ofNullable(entity).orElseThrow(LoginException::new);
-        return entity.toBean(new User());
+        return entity == null ? null : entity.toBean(new User(), true);
     }
 
     public void register(User user) {

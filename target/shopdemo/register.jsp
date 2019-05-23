@@ -1,3 +1,4 @@
+<%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@page isELIgnored="false" %>
@@ -9,10 +10,17 @@
     <link href="css/bootstrap.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #ECEEF1;
+        }
+    </style>
 </head>
 <body>
-<c:if test="${errorMessage!=null}">
-    <span style="color: red">${errorMessage}</span>
+<c:if test="${requestScope.errorMessage!=null}">
+    <span style="color: red">${requestScope.errorMessage}</span>
 </c:if>
 <div class="commonHeader">
     <div style="font-size: 20px;color: black">购物商城</div>

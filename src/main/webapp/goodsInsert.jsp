@@ -1,6 +1,7 @@
+<%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
-<%@page isELIgnored="false" %>
+<%@ page isELIgnored="false" %>
 <html>
 <head>
     <title>商品管理</title>
@@ -8,6 +9,13 @@
     <link href="css/bootstrap.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #ECEEF1;
+        }
+    </style>
 </head>
 <body>
 <div class="commonHeader">

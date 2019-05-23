@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Optional;
 
-@WebServlet(name = "ResetPasswordServlet")
+@WebServlet(value = "/resetPasswordServlet", name = "ResetPasswordServlet")
 public class ResetPasswordServlet extends HttpServlet {
     @Resource
     private UserManageService userService;

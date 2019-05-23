@@ -2,6 +2,8 @@ import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import org.junit.Test;
 import xyz.kingsword.shopdemo.model.bean.Good;
+import xyz.kingsword.shopdemo.model.bean.User;
+import xyz.kingsword.shopdemo.model.dao.UserDao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,6 +17,13 @@ import java.util.List;
  * @version: 1.0
  **/
 public class DemoTest {
+    @Test
+    public void dbTest() throws SQLException {
+        UserDao userDao = new UserDao();
+        User user = userDao.login(new User("wzh", "123456"));
+        System.out.println(user);
+    }
+
     @Test
     public void test() {
         long t1 = System.currentTimeMillis();

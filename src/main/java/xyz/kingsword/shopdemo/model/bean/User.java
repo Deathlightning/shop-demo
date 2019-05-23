@@ -11,10 +11,11 @@ public class User {
     private int id;
     private String username;
     private String password;
-    private int type;//0为普通用户1为管理员用户
-    private Card card;
+    private Integer type;//0为普通用户1为管理员用户
+    private Card bankId;
     private String address;
     private String imgUrl;
+    private String email;
 
     public User(String username, String password) {
         this.username = username;
@@ -23,4 +24,6 @@ public class User {
 
     public User() {
     }
+
+
 }
