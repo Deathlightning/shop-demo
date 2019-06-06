@@ -14,4 +14,10 @@ public interface GoodService {
     List<Good> findOnType(String type);
 
     List<Good> findOnName(String name);
+
+    Good findOnId(int id);
+
+    List<Good> list(List<Integer> ids);
+
+    List<String> getClassifyList();
 }

@@ -7,75 +7,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc387be-a1f9-421f-b42f-e003f77bcfcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/SendCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/commonHeader.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/forgetPassword.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/axios.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shopdemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/shopdemo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe429230-5b5d-4ca0-8b3e-6838a5f901b3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/CharSetEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/ChangeShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/DeleteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/DeleteShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/GoodInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/GoodListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/InsertShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/ShoppingCartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/GoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/AuthUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/ServletJsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/notify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shoppingCart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shopdemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/beans.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/GoodDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/GoodDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/GoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/GoodService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/db.setting" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/db.setting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/commonHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/commonHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/commonHeader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/forgetPassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forgetPassword.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/goodsInsert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/goodsInsert.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/manager.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/purchase.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/purchase.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/db.setting" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.setting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/filter/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/userController/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/userController/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/userController/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/userController/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/bean/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/bean/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/bean/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/bean/Good.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/bean/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/dao/GoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/dao/GoodDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/service/ConditionalStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/service/ConditionalStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/util/CDIContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/util/CDIContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/util/CardCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/util/CardCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/META-INF/shopdemo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/beans.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/service/GoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/kingsword/shopdemo/model/service/GoodService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/db.setting" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/db.setting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/filter/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/userController/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/userController/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/userController/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/userController/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/bean/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/bean/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/bean/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/bean/Good.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/bean/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/dao/GoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/dao/GoodDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/service/ConditionalStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/service/ConditionalStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/util/CDIContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/util/CDIContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/util/CardCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/util/CardCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/lib/hutool-all-4.5.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/lib/javaee-api-7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/lib/javax.mail-1.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/service/GoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/xyz/kingsword/shopdemo/model/service/GoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shopdemo/commonHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/commonHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shopdemo/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shopdemo/forgetPassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/forgetPassword.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/goodsInsert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/goodsInsert.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/manager.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/purchase.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/purchase.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/shopdemo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopdemo/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopdemo/test.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DemoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -86,34 +78,140 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdemo" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdemo" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdemo" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shop_management: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdemo" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shop_management: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="shopping_cart: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="shopdemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/forgetPassword.jsp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/GoodInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="432">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding>
-                <element signature="n#style#0;n#label#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#1;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/db.setting">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="42" />
+            <state>
+              <caret column="107" selection-start-column="107" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/GoodService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/GoodServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/GoodDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1458">
+              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/DemoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mail.setting">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/AuthFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/CharSetEncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -123,10 +221,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>游客</find>
+      <find>ShoppingCartController</find>
+      <find>deleteShoppingCartController</find>
+      <find>changeShoppingCartController</find>
+      <find>goods</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,16 +242,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resource/db.setting" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/goodsInsert.jsp" />
-        <option value="$PROJECT_DIR$/src/test/DemoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/purchase.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/common.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/commonHeader.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/UserManageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/User.java" />
@@ -151,13 +253,46 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/forgetPassword.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/Good.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/Shopping_cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/GoodListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/AuthUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/DeleteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/ShoppingCartVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/ServletJson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/ServletJsonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/commonHeader.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/page.css" />
+        <option value="$PROJECT_DIR$/src/main/resource/db.setting" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/ShoppingCartDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/ChangeShoppingCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/InsertShoppingCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/ShoppingCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/goodsInsert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/ShoppingCartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/ShoppingCartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/card.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/shoppingCart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/DeleteShoppingCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/notify.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/purchase.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/GoodDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/CharSetEncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/GoodService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/GoodServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/GoodInfoController.java" />
+        <option value="$PROJECT_DIR$/src/test/DemoTest.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
@@ -174,19 +309,28 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shopdemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-6" />
+    <option name="y" value="1" />
+    <option name="width" value="1612" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,74 +388,7 @@
               <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="userController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -323,22 +400,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\shopdemo\src\main\webapp\css" />
+      <recent name="E:\shopdemo\src\main\webapp" />
       <recent name="E:\shopdemo\src\main\webapp\js" />
     </key>
   </component>
@@ -354,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.16">
+  <component name="RunManager" selected="JUnit.DemoTest.dbTest">
     <configuration name="DemoTest.dbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shopdemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -366,7 +449,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shopdemo_war_exploded/login.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shopdemo_war_exploded/goodList" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="shopdemo:war exploded">
@@ -459,333 +542,502 @@
       <option name="presentableId" value="Default" />
       <updated>1558163530693</updated>
       <workItem from="1558163535709" duration="12540000" />
+      <workItem from="1558575866585" duration="108000" />
+      <workItem from="1558770627185" duration="1533000" />
+      <workItem from="1558834499316" duration="108000" />
+      <workItem from="1558837013374" duration="29000" />
+      <workItem from="1558863907224" duration="5979000" />
+      <workItem from="1558911528230" duration="2431000" />
+      <workItem from="1558917592001" duration="55000" />
+      <workItem from="1558937437047" duration="10809000" />
+      <workItem from="1559260913940" duration="649000" />
+      <workItem from="1559354758866" duration="497000" />
+      <workItem from="1559374549676" duration="4956000" />
+      <workItem from="1559380551312" duration="4565000" />
+      <workItem from="1559439764011" duration="2208000" />
+      <workItem from="1559443531235" duration="2067000" />
+      <workItem from="1559472608952" duration="613000" />
+      <workItem from="1559526869181" duration="606000" />
+      <workItem from="1559529843160" duration="2723000" />
+      <workItem from="1559533002973" duration="25000" />
+      <workItem from="1559550275108" duration="1415000" />
+      <workItem from="1559554778655" duration="569000" />
+      <workItem from="1559584315324" duration="12000" />
+      <workItem from="1559584341223" duration="913000" />
+      <workItem from="1559630430711" duration="481000" />
+      <workItem from="1559631915779" duration="6526000" />
+      <workItem from="1559722825183" duration="672000" />
+      <workItem from="1559777945751" duration="1258000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 15h 24m 02s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.01 at 10h 13m 41s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 15h 51m 17s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.01 at 16h 51m 06s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 15h 51m 31s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.04 at 18h 48m 48s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 16h 01m 26s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.04 at 18h 53m 02s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 16h 01m 50s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.04 at 21h 06m 59s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 16h 02m 11s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.04 at 21h 07m 12s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 16h 02m 19s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.04 at 21h 17m 03s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 16h 02m 54s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.04 at 21h 21m 54s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 16h 04m 02s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.04 at 21h 23m 26s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_dbTest - 2019.05.18 at 16h 04m 20s.xml">
+    <history-entry file="DemoTest_dbTest - 2019.06.05 at 16h 21m 44s.xml">
       <configuration name="DemoTest.dbTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12540000" />
+    <option name="totallyTimeSpent" value="64347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="1" width="1612" height="865" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" sideWeight="0.5010846" side_tool="true" weight="0.25" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49457702" visible="true" weight="0.31572166" />
+      <window_info id="Structure" order="1" sideWeight="0.505423" side_tool="true" weight="0.25586355" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="7" sideWeight="0.505423" side_tool="true" weight="0.25586355" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28850326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47613883" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.14392324" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.18685567" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="aiXcoder" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/attributes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/db.setting">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/mail.setting">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/db.setting">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/beans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9.jar!/cn/hutool/db/AbstractDb.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9.jar!/cn/hutool/db/Page.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="301" column="24" selection-start-line="301" selection-start-column="24" selection-end-line="301" selection-end-column="24" />
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CDIContainer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/db/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/AuthUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mail.setting">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/annotation/WebFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1644">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/goodsInsert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/manager.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9.jar!/cn/hutool/core/lang/Dict.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding>
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/core/bean/copier/BeanCopier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="279" selection-start-line="279" selection-end-line="279" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/db/AbstractDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/core/lang/Dict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="119" column="20" lean-forward="true" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
-          <folding>
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#1927#1928#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DemoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="164">
+          <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
+          <folding>
+            <element signature="e#8628#8629#0" expanded="true" />
+            <element signature="e#8680#8681#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/purchase.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/ShoppingCartVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="164">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/common.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/util/ServletJsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e29c8371-718f-42ef-a2fb-1108570f32e5/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/commonHeader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="136">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/axios.min.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/db/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="290">
+          <caret line="226" column="18" selection-start-line="226" selection-start-column="18" selection-end-line="226" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/db/StatementUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="176" column="36" selection-start-line="176" selection-start-column="36" selection-end-line="176" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="589" column="10" selection-start-line="589" selection-start-column="10" selection-end-line="589" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/db/sql/SqlExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="182" column="37" lean-forward="true" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="166" column="4" selection-start-line="166" selection-start-column="4" selection-end-line="176" selection-end-column="5" />
+        <state relative-caret-position="298">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/UserManageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/Good.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/bean/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="217">
+          <caret line="4" column="78014" selection-start-line="4" selection-start-column="78014" selection-end-line="4" selection-end-column="78014" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/goodsInsert.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="53" column="14" lean-forward="true" selection-end-line="62" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="884">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/ShoppingCartService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/SendCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="578">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="516">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/GoodListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/ShoppingCartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/commonHeader.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+        <state relative-caret-position="362">
+          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/userController/ResetPasswordServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/InsertShoppingCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="94" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="94" />
+          <folding>
+            <element signature="e#845#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/db/AbstractDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/shoppingCart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3645">
+          <caret line="135" column="82" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/ShoppingCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/DeleteShoppingCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/ShoppingCartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/DeleteController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="42" />
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/forgetPassword.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/ChangeShoppingCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="108">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/notify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/purchase.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1047">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
           <folding>
-            <element signature="n#style#0;n#label#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#1;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/InsertGoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/ServletResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="941">
+          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.5.9/hutool-all-4.5.9-sources.jar!/cn/hutool/json/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="287" column="25" selection-start-line="287" selection-start-column="25" selection-end-line="287" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/goodsController/GoodInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/db.setting">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="107" selection-start-column="107" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/GoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/service/impl/GoodServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/model/dao/GoodDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/kingsword/shopdemo/controller/filter/CharSetEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mail.setting">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>

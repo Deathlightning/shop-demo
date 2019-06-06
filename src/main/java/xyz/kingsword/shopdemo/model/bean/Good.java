@@ -10,7 +10,7 @@ import lombok.Data;
 public class Good {
     private int id;
     private String name;
-    private String photo;
+    private String imgUrl;
     private String description;
     private double price;
     private int number;

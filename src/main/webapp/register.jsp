@@ -6,7 +6,7 @@
 <html>
 <head>
     <title>注册</title>
-    <link href="css/common.css">
+    <link href="css/commonHeader.css">
     <link href="css/bootstrap.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

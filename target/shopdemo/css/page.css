@@ -1,0 +1,27 @@
+.page-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+}
+
+ul.page-pagination li {
+    display: inline;
+}
+
+ul.page-pagination li a {
+    color: black;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.page-pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+ul.page-pagination li a:hover:not(.active) {
+    background-color: #ddd;
+}

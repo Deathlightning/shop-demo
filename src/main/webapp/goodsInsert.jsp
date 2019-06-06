@@ -1,11 +1,10 @@
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
-<%@ page isELIgnored="false" %>
 <html>
 <head>
     <title>商品管理</title>
-    <link href="css/common.css">
+    <link href="css/commonHeader.css">
     <link href="css/bootstrap.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

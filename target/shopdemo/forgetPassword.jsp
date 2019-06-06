@@ -5,10 +5,11 @@
 <html>
 <head>
     <title>重置密码</title>
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/commonHeader.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/axios.min.js"></script>
     <style>
         * {
             padding: 0;
@@ -32,9 +33,11 @@
     <label for="username" style="display: block">用户名</label>
     <input type="text" style="margin-bottom: 15px" id="username">
     <label for="checkCode" style="display: block">验证码</label>
-    <div><input type="text" width="50px" id="checkCode">
+    <div>
+        <input type="text" width="50px" id="checkCode">
         <button type="button" class="btn-default" onclick="sendCheckCode()">发送验证码</button>
     </div>
+    <button type="button" onclick="changePassword()">下一步</button>
 </div>
 </body>
 </body>
@@ -43,6 +46,12 @@
         axios.get('/sendCheckCode').catch(function () {
             alert('账号不存在')
         })
+    }
+
+    function changePassword() {
+        var username = document.getElementById('username');
+        var password = document.getElementById('password');
+        axios.post('/resetPasswordServlet').then(function (value) {  })
     }
 </script>
 </html>

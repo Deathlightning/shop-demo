@@ -1,26 +1,28 @@
 package xyz.kingsword.shopdemo.controller.goodsController;
 
-import cn.hutool.extra.servlet.ServletUtil;
-import xyz.kingsword.shopdemo.model.bean.Good;
-import xyz.kingsword.shopdemo.model.service.GoodService;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Arrays;
 
 /**
  * @author: wzh date: 2019-05-10 22:11
  * @version: 1.0
  **/
-@WebServlet(urlPatterns = "/good/insert",name = "insertGood")
+@WebServlet(urlPatterns = "/good/insert", name = "insertGood")
 public class InsertGoodController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        Good good = ServletUtil.fillBean(req, new Good(), false);
-        GoodService goodService;
+        req.getParameterMap().forEach((k, v) -> System.out.println(k + " " + Arrays.toString(v)));
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+        doPost(req, resp);
     }
 }

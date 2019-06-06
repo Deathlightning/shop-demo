@@ -2,14 +2,13 @@ import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import org.junit.Test;
 import xyz.kingsword.shopdemo.model.bean.Good;
-import xyz.kingsword.shopdemo.model.bean.User;
-import xyz.kingsword.shopdemo.model.dao.UserDao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -19,9 +18,11 @@ import java.util.List;
 public class DemoTest {
     @Test
     public void dbTest() throws SQLException {
-        UserDao userDao = new UserDao();
-        User user = userDao.login(new User("wzh", "123456"));
-        System.out.println(user);
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("a", 1);
+        map.put("a", 2);
+        map.put("a", 3);
+        System.out.println(map.get("a"));
     }
 
     @Test
@@ -90,7 +91,7 @@ public class DemoTest {
             good.setAttributes("[]");
             good.setClassify("分类");
             good.setDescription("description");
-            good.setPhoto("http::");
+            good.setImgUrl("http::");
             good.setPrice(10.2);
             Entity entity = Entity.create("goods").parseBean(good);
             entityList.add(entity);

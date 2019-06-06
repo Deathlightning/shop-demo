@@ -17,7 +17,8 @@
             background-color: #32363a;
             height: 40px;
             padding-left: 15px;
-            padding-top: 10px;
+            padding-top: 8px;
+            margin-bottom: 15px;
         }
 
         .commonHeader .title {

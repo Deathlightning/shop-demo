@@ -7,14 +7,6 @@
     <title></title>
 </head>
 <body>
-<c:if test="${sessionScope.user!=null}">
-    <c:if test="${sessionScope.user.type==0}">
-        <jsp:forward page="purchase.jsp"/>
-    </c:if>
-    <c:if test="${sessionScope.user.type==1}">
-        <jsp:forward page="manager.jsp"/>
-    </c:if>
-</c:if>
 <c:if test="${sessionScope.user==null}">
     <script>alert('账号或密码错误')</script>
     <jsp:forward page="/login.jsp"/>

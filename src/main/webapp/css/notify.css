@@ -1,0 +1,50 @@
+.notify {
+    -webkit-animation-name: fadeIn;
+    /*动画名称*/
+    -webkit-animation-duration: 1s;
+    /*动画持续时间*/
+    -webkit-animation-iteration-count: 1;
+    /*动画次数*/
+    -webkit-animation-delay: 0s;
+    /*延迟时间*/
+}
+
+.notify-style {
+    display: flex;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F9EB;
+    color: #67C23A;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    max-width: 400px;
+}
+
+.notify-position {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    text-align: center;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        margin-top: 0;
+    }
+    5% {
+        margin-top: 5px;
+    }
+    10% {
+        margin-top: 20px;
+    }
+    15% {
+        margin-top: 30px;
+    }
+    20% {
+        margin-top: 40px;
+    }
+    100% {
+        margin-top: 40px;
+    }
+}
