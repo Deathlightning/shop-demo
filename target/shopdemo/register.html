@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>注册</title>
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta-Tags -->
+    <!-- Stylesheets -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!--// Stylesheets -->
+    <!--online fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!--//online fonts-->
+</head>
+
+<body>
+    <h1></h1>
+    <div class="w3ls-login box" style="margin-top: 200px">
+        <img src="http://kingsword.xyz/1559959114075.com_1559958805493.png" alt="logo_img" />
+        <!-- form starts here -->
+        <form action="http://localhost:8080/shopdemo_war_exploded/login" method="post">
+            <div class="agile-field-txt">
+                <input type="text" name="username" placeholder="username" required/>
+            </div>
+            <div class="agile-field-txt">
+                <input type="password" name="password" placeholder="password" required/>
+            </div>
+            <div class="agile-field-txt">
+                <input type="password" name="password1" placeholder="repeate password" required/>
+            </div>
+            <div class="agile-field-txt" style="display: flex">
+                <input type="email" name="email" placeholder="email" required style="width: 70%" />
+                <button class="btn btn-default" style="height: 50px">发送验证码</button>
+            </div>
+            <div class="agile-field-txt" style="text-align: left">
+                <input type="text" name="checkCode" placeholder="验证码" required/>
+            </div>
+            <button class="btn btn-default" style="width: 100%"> 注册</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -14,7 +14,7 @@ public class AuthUtil {
         Object user = request.getSession().getAttribute("user");
         Optional.ofNullable(user).orElseThrow(LoginException::new);
     }
-
+    //判断是否登录 登录返回true
     public static boolean LoginStatus(HttpServletRequest request) {
         Object user = request.getSession().getAttribute("user");
         return Optional.ofNullable(user).isPresent();

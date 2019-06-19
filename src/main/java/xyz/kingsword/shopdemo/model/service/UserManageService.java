@@ -8,7 +8,7 @@ import xyz.kingsword.shopdemo.model.bean.User;
  * @version: 1.0
  **/
 public interface UserManageService {
-    void resetPassword(String username, String password);
+    void resetPassword(String email, String password);
 
     void register(User user);
 }

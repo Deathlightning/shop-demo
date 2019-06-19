@@ -10,9 +10,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
+import java.util.TreeSet;
 
 @WebServlet(name = "ShoppingCartController", urlPatterns = "/shoppingCartController")
 public class ShoppingCartController extends HttpServlet {
@@ -26,11 +27,13 @@ public class ShoppingCartController extends HttpServlet {
     @Override
     @SuppressWarnings("unchecked")
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Integer> shoppingCartList = (List<Integer>) request.getSession().getAttribute("shoppingCartList");
-        shoppingCartList = Optional.ofNullable(shoppingCartList).orElse(new ArrayList<>());
+        Set<Integer> shoppingCartList = (Set<Integer>) request.getSession().getAttribute("shoppingCartList");
+        shoppingCartList = Optional.ofNullable(shoppingCartList).orElse(new TreeSet<>());
         List<Good> goodList = goodService.list(shoppingCartList);
+        double sumPrice = goodList.stream().mapToDouble(Good::getPrice).sum();
         List<String> classifyList = goodService.getClassifyList();
         request.setAttribute("goodsList", goodList);
+        request.setAttribute("sumPrice", sumPrice);
         request.setAttribute("classifyList", classifyList);
         request.getRequestDispatcher("/shoppingCart.jsp").forward(request, response);
     }

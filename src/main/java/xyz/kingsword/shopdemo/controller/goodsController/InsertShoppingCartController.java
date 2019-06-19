@@ -26,8 +26,8 @@ public class InsertShoppingCartController extends HttpServlet {
         String goodId = request.getParameter("goodId");
         int goodIdInt = Integer.parseInt(goodId);
         HttpSession session = request.getSession();
-        List<Integer> shoppingCartSet = (List<Integer>) session.getAttribute("shoppingCartList");
-        shoppingCartSet = Optional.ofNullable(shoppingCartSet).orElse(new ArrayList<>());
+        Set<Integer> shoppingCartSet = (Set<Integer>) session.getAttribute("shoppingCartList");
+        shoppingCartSet = Optional.ofNullable(shoppingCartSet).orElse(new TreeSet<>());
         shoppingCartSet.add(goodIdInt);
         session.setAttribute("shoppingCartList", shoppingCartSet);
         User user = (User) request.getAttribute("user");

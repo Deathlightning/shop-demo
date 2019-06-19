@@ -1,6 +1,5 @@
 package xyz.kingsword.shopdemo.controller.goodsController;
 
-import cn.hutool.json.JSONUtil;
 import xyz.kingsword.shopdemo.model.bean.Good;
 import xyz.kingsword.shopdemo.model.exception.ParameterException;
 import xyz.kingsword.shopdemo.model.service.GoodService;
@@ -14,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Optional;
 
-@WebServlet(name = "GoodInfoController", urlPatterns = "/goodInfoController")
+@WebServlet(name = "GoodInfoController", urlPatterns = "/good/goodInfoController")
 public class GoodInfoController extends HttpServlet {
     private GoodService goodService;
 
@@ -26,9 +25,8 @@ public class GoodInfoController extends HttpServlet {
         String goodId = request.getParameter("goodId");
         Good good = goodService.findOnId(Integer.parseInt(goodId));
         Optional.ofNullable(good).orElseThrow(ParameterException::new);
-        String jsonStr = JSONUtil.toJsonStr(good);
-        response.setContentType("application/json; charset=utf-8");
-        response.getWriter().write(jsonStr);
+        request.setAttribute("good", good);
+        request.getRequestDispatcher("/goodInfo.jsp").forward(request, response);
     }
 
     @Override

@@ -16,8 +16,8 @@ public class CheckCodeUtil {
     private static Set<String> codeSet = new HashSet<>(10);
 
     public static void sendCode(String to) {
-        String simpleUUID = IdUtil.simpleUUID();
-        MailUtil.send(to, "验证码", "您的验证码：" + simpleUUID + "十分钟内有效", false);
+        String simpleUUID = IdUtil.simpleUUID().substring(0, 6);
+        MailUtil.send(to, "验证码", "您的验证码：" + simpleUUID + " 十分钟内有效", false);
         new Reminder(simpleUUID);
     }
 
@@ -25,8 +25,9 @@ public class CheckCodeUtil {
         return codeSet.remove(code);
     }
 
-    public static class Reminder {
+    private static class Reminder {
         Timer timer;
+
         Reminder(String code) {
             timer = new Timer();
             timer.schedule(new TimerTask() {

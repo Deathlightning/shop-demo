@@ -4,20 +4,13 @@ import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import cn.hutool.db.Page;
 import cn.hutool.db.sql.Condition;
+import cn.hutool.json.JSONUtil;
 import xyz.kingsword.shopdemo.model.bean.Good;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
-
-/**
- * @author: wzh date: 2019-05-10 22:17
- * @version: 1.0
- **/
 public class GoodDao {
     public Good findById(int id) {
         Entity where = Entity.create("good").set("id", id);
@@ -33,7 +26,9 @@ public class GoodDao {
     }
 
     public boolean insert(Good good) {
-        Entity entity = Entity.create("good").parseBean(good);
+        Entity entity = Entity.create("good").parseBean(good).set("photos", JSONUtil.toJsonStr(good.getPhotos()));
+        entity.remove("id");
+        entity.remove("attributesMap");
         try {
             return Db.use().insert(entity) == 1;
         } catch (SQLException e) {
@@ -95,9 +90,9 @@ public class GoodDao {
         return 0;
     }
 
-    public List<Good> findOnType(String type) {
+    public List<Good> findOnCategory(int category) {
         try {
-            List<Entity> entityList = Db.use().findAll(Entity.create("good").set("type", type));
+            List<Entity> entityList = Db.use().find(Entity.create("good").set("category", category));
             return entityList.parallelStream().map(v -> v.toBeanIgnoreCase(Good.class)).collect(Collectors.toList());
         } catch (SQLException e) {
             e.printStackTrace();
@@ -105,7 +100,7 @@ public class GoodDao {
         return new ArrayList<>();
     }
 
-    public List<Good> listById(List<Integer> ids) {
+    public List<Good> listById(Collection<Integer> ids) {
         try {
             List<Entity> entityList = Db.use().findAll(Entity.create("good").set("id", ids));
             return entityList.parallelStream().map(v -> v.toBeanIgnoreCase(Good.class)).collect(Collectors.toList());
@@ -126,7 +121,7 @@ public class GoodDao {
     }
 
     public List<String> getClassify() {
-        String[] classify = new String[11];
+        String[] classify = new String[12];
         classify[0] = "服装";
         classify[1] = "鞋包";
         classify[2] = "玩具";
@@ -138,6 +133,7 @@ public class GoodDao {
         classify[8] = "美食 生鲜";
         classify[9] = "花卉 宠物";
         classify[10] = "家具 装修";
+        classify[11] = "电子 数码";
         return Arrays.asList(classify);
     }
 

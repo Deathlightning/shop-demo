@@ -6,10 +6,9 @@
 <html>
 <head>
     <title>注册</title>
-    <link href="css/commonHeader.css">
     <link href="css/bootstrap.min.css">
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery-3.3.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -19,12 +18,7 @@
     </style>
 </head>
 <body>
-<c:if test="${requestScope.errorMessage!=null}">
-    <span style="color: red">${requestScope.errorMessage}</span>
-</c:if>
-<div class="commonHeader">
-    <div style="font-size: 20px;color: black">购物商城</div>
-</div>
+<%@ include file="commonHeader.jsp" %>
 <form action="${pageContext.request.contextPath}/login" method="post">
     <div class="form-group">
         <label for="username">username</label>

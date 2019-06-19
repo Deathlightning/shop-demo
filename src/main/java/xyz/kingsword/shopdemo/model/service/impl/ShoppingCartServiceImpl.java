@@ -35,6 +35,6 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 
     @Override
     public void insert(List<Integer> ids, int userId) {
-
+        shoppingCartDao.insert(ids, userId);
     }
 }

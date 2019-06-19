@@ -1,5 +1,6 @@
 package xyz.kingsword.shopdemo.model.dao;
 
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import xyz.kingsword.shopdemo.model.bean.ShoppingCart;
@@ -16,6 +17,19 @@ public class ShoppingCartDao {
         try {
             Entity entity = Entity.create("shopping_cart").set("goods_id", id).set("user_id", userId);
             Db.use().insert(entity);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void insert(List<Integer> ids, int userId) {
+        try {
+            String[] sqls = new String[ids.size()];
+            for (int i = 0; i < ids.size(); i++) {
+                String sql = StrUtil.format("insert into shopping_cart(user_id,goods_id) values({},{})", userId, ids.get(i));
+                sqls[i] = sql;
+            }
+            Db.use().executeBatch(sqls);
         } catch (SQLException e) {
             e.printStackTrace();
         }

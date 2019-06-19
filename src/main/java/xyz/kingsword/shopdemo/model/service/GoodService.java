@@ -1,7 +1,9 @@
 package xyz.kingsword.shopdemo.model.service;
 
+import cn.hutool.db.Page;
 import xyz.kingsword.shopdemo.model.bean.Good;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface GoodService {
@@ -11,13 +13,15 @@ public interface GoodService {
 
     void delete(int id);
 
-    List<Good> findOnType(String type);
+    List<Good> findOnCategory(int classify);
 
     List<Good> findOnName(String name);
 
     Good findOnId(int id);
 
-    List<Good> list(List<Integer> ids);
+    List<Good> list(Collection<Integer> ids);
+
+    List<Good> list(Page page);
 
     List<String> getClassifyList();
 }

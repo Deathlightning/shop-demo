@@ -9,7 +9,7 @@
     /*延迟时间*/
 }
 
-.notify-style {
+.notify-success {
     display: flex;
     word-wrap: break-word;
     justify-content: center;
@@ -21,30 +21,41 @@
     max-width: 400px;
 }
 
+.notify-error {
+    display: flex;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEF0F0;
+    color: #F56C6C;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    max-width: 400px;
+}
+
 .notify-position {
     position: fixed;
     z-index: 9999;
     width: 100%;
-    text-align: center;
 }
 
 @-webkit-keyframes fadeIn {
     0% {
-        margin-top: 0;
+        top: 0;
     }
     5% {
-        margin-top: 5px;
+        top: 5px;
     }
     10% {
-        margin-top: 20px;
+        top: 20px;
     }
     15% {
-        margin-top: 30px;
+        top: 30px;
     }
     20% {
-        margin-top: 40px;
+        top: 40px;
     }
     100% {
-        margin-top: 40px;
+        top: 40px;
     }
 }

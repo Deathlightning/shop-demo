@@ -16,7 +16,7 @@ import java.io.IOException;
  * @author: wzh date: 2019-04-22 11:26
  * @version: 1.0
  **/
-@WebServlet(urlPatterns = "/forgetUrl")
+@WebServlet(urlPatterns = "/forgetUrl", name = "resetPassword")
 public class ForgetController extends HttpServlet {
     @Resource
     private LoginService loginService;
